@@ -2,7 +2,7 @@
 title: "hicksford | citizenhicks"
 description: "indie ml engineer and ai enthusiast"
 url: "https://citizenhicks.github.io/blog" 
-baseurl: ""
+baseurl: "/blog"
 
 markdown: kramdown
 highlighter: rouge
