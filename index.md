@@ -11,7 +11,7 @@ title: "hicksford | citizenhicks"
 <h2>About Me</h2>
 <p>indie ml engineer and ai enthusiast specializing in multi-agent systems and autonomous ai architectures. building the next generation of multi agent applications that enable complex startegic modeling, planning, and tool use. passionate about creating intelligent systems that can decompose problems, coordinate across specialized agents, and deliver sophisticated solutions through orchestrated workflows. focused on pushing the boundaries of what agents can achieve in real-world applications especially in model development and validation in the fincancial services sector.</p>
 <div class="skills">
-       {% for skill in site.data.site.skills.about %}
+       {% for skill in site.site.skills.about %}
 <span class="tag">{{ skill }}</span>
        {% endfor %}
 </div>
@@ -47,7 +47,6 @@ title: "hicksford | citizenhicks"
 <section class="section">
 <h2>Skills</h2>
 <div class="skills">
-       {% for skill in site.skills.about %}
        {% for skill in site.skills.technical %}
 <span class="tag">{{ skill }}</span>
        {% endfor %}
