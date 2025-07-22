@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div class="post-meta">
+            <time class="post-date">{{ page.date | date: "%B %d, %Y" }}</time>
+            {% if page.author %}
+            <span class="post-author">by {{ page.author }}</span>
+            {% endif %}
+            {% if page.tags and page.tags.size > 0 %}
+            <div class="post-tags">
+                {% for tag in page.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        <nav class="post-nav">
+            <a href="{{ '/' | relative_url }}" class="back-to-blog">← back to blog</a>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&via=citizenhicks" target="_blank" class="share-twitter">share on X</a>
+        </nav>
+    </header>
+    
+    <div class="post-content">
+        {{ content }}
+    </div>
+    
+    <footer class="post-footer">
+        <div class="post-navigation">
+            {% if page.previous.url %}
+            <div class="prev-post">
+                <span>Previous Post</span>
+                <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+            </div>
+            {% endif %}
+            
+            {% if page.next.url %}
+            <div class="next-post">
+                <span>Next Post</span>
+                <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+            </div>
+            {% endif %}
+        </div>
+        
+        <div class="post-share">
+            <h4>Share this post:</h4>
+            <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&via=citizenhicks" target="_blank" class="share-btn twitter">
+                    Share on X
+                </a>
+            </div>
+        </div>
+        
+        <div class="back-to-top">
+            <a href="{{ '/' | relative_url }}">← back to blog</a>
+        </div>
+    </footer>
+</article>

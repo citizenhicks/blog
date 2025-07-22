@@ -1,12 +1,11 @@
 
-title: "hicksford | citizenhicks"
-description: "indie ml engineer and ai enthusiast"
+title: "Blog | citizenhicks"
+description: "thoughts on ai, multi-agent systems, and software engineering"
 url: "https://citizenhicks.github.io/blog" 
 baseurl: "/blog"
 
 markdown: kramdown
 highlighter: rouge
-
 
 plugins:
 - jekyll-feed
@@ -20,11 +19,17 @@ exclude:
 - vendor
 
 collections:
-projects:
-output: false
+  projects:
+    output: false
 
 defaults:
-- scope:
-  path: ""
-  type: "pages"
-  values:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
