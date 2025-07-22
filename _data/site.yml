@@ -1,11 +1,11 @@
 author:
-name: "citizenhicks"
-subtitle: "indie ml engineer"
-twitter: "https://x.com/citizenhicks"
-github: "https://github.com/citizenhicks"
+  name: citizenhicks
+  subtitle: indie ml engineer
+  twitter: https://x.com/citizenhicks
+  github: https://github.com/citizenhicks
 skills:
   about:
-  - "Multi-Agent Systems"
+  - Multi-Agent Systems
   - "LangChain"
   - "LangGraph"
   - "smolagents"
@@ -18,7 +18,7 @@ skills:
   - "Probability theory"
   - "Reinforcement learning"
   technical:
-  - "Agent Frameworks"
+  - Agent Frameworks
   - "LangChain"
   - "LangGraph"
   - "smolagents"
