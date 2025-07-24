@@ -29,7 +29,7 @@ my Neovim setup took the longest time to finish. it has countless plugins and a 
 - the last part I want to highlight here is the text suggestions and linting. there are competing plugins for all of these tasks, and you need to find the option that works best for you. I like relatively non-intrusive linting messages with not too aggressive text suggestions, but that is just my preference. in Neovim, you can go crazy and get all the suggestions and messages you need.
 
 
-## does it worth it?
+## is it worth it?
 well, looking back on this journey and how the coding models evolved in the last couple of months, I definitely prefer this way. part of it is the fact that Claude Code and similar tools live in the terminal and just make it much easier to work with in tmux. some part is the fact that I use a split keyboard, which will naturally make you use it a bit more, given the customization capabilities and layering of the keys. once you get used to not moving your hands at all, as everything is right where it should be on the home row, it’s hard to reach for your trackpad/mouse when you really have to. overall, I really enjoy the workflow as it is at the moment, but as any tmux-Neovim-split-keyboard-Colemak user will tell you, your config will never be done. thanks for reading.
 
 _find me on [X/Twitter](https://x.com/citizenhicks) or [GitHub](https://github.com/citizenhicks) for more discussions about ai and software engineering._
