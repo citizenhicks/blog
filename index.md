@@ -7,8 +7,7 @@ title: "Blog | citizenhicks"
     <h1>{{ site.data.site.author.name }}</h1>
     <p class="subtitle">{{ site.data.site.author.blogsub }}</p>
     <nav style="margin: 1rem 0;">
-        <a href="{{ site.data.site.author.portfolio }}" class="back-to-home">back to
-            portfolio</a>
+        <a href="{{ site.data.site.author.portfolio }}" class="back-to-home">portfolio</a>
         <span style="margin: 0 1rem;">|</span>
         <a href="{{ site.data.site.author.twitter }}" target="_blank">X/Twitter</a>
         <a href="{{ site.data.site.author.github }}" target="_blank">GitHub</a>
