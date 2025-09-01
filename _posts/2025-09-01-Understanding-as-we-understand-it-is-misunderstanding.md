@@ -9,6 +9,7 @@ tags:
   - langgraph
   - engineering
   - workflow
+  - ai systems
 ---
 We tend to believe that we understand the things around us, especially the things we create. Engineers are the creators of systems; they need to know that they understand what they have created and can predict the behavior of that system. With AI agents, this is not the case, even if a lot of people like to pretend otherwise. We have the endless stream of AI influencers on YouTube and Twitter who claim they have found the best way of working with AI agents. We have business leaders, especially consulting leaders, who pretend they have unlocked the hidden secrets of AI. Reality is sobering, but before we go into AI agents, we need to talk about LLMs, AI workflows, and then we can conclude on the current state of AI agents.
 
@@ -51,5 +52,6 @@ Multi-agents are hot right now. Very few teams I have seen can actually design a
 These are my main reasons I think we can have multi-agent systems. With 400k context windows, you realize that you have very few cases when you need multi-agent systems.
 
 Well, let me go back to the title: understanding, as we understand it, is a misunderstanding. I think you see why I say this. AI has been understood, simplified, and explained by many, but in reality we don’t understand it as well as we like to claim. The above demonstrates that this tech can be very useful, but you need to follow your engineering process to make it work. Do the corporate folks understand this? Probably not: [MIT Finds 95% Of GenAI Pilots Fail](https://www.forbes.com/sites/jasonsnyder/2025/08/26/mit-finds-95-of-genai-pilots-fail-because-companies-avoid-friction/). 
+
 thanks for reading.  
 _find me on [X/Twitter](https://x.com/citizenhicks) or [GitHub](https://github.com/citizenhicks) for more discussions about ai and software engineering._
