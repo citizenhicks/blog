@@ -11,9 +11,9 @@ tags:
   - workflow
   - ai systems
 ---
-We tend to believe that we understand the things around us, especially the things we create. Engineers are the creators of systems; they need to know that they understand what they have created and can predict the behavior of that system. With AI agents, this is not the case, even if a lot of people like to pretend otherwise. We have the endless stream of AI influencers on YouTube and Twitter who claim they have found the best way of working with AI agents. We have business leaders, especially consulting leaders, who pretend they have unlocked the hidden secrets of AI. Reality is sobering, but before we go into AI agents, we need to talk about LLMs, AI workflows, and then we can conclude on the current state of AI agents.
+We tend to believe that we understand the things around us, especially the things we create. Engineers are the creators of systems; they understand what they have created and able to predict the behavior of that system. With AI agents, this is not the case, even if a lot of people like to pretend otherwise. We have the endless stream of AI influencers on YouTube and Twitter who claim they have found the best way of working with AI agents. We have business leaders, especially consulting leaders, who pretend they have unlocked the hidden secrets of AI. Reality is sobering, especially when it comes to AI agents. Before we go into AI agents, we need to talk about LLMs, AI workflows, and then we can conclude on the current state of AI agents.
 
-Since this is a very complicated topic, I will simplify my discussion around AI agents which are built with Large Language Models only. This will keep the topic relatable.
+Since this is a very complicated topic, I will simplify my discussion and keep it focused on AI agents which are built with Large Language Models. This will keep the topic relatable.
 
 ## LLMs
 
